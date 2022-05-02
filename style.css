@@ -1,0 +1,133 @@
+section {
+    box-sizing: border-box;
+    max-width: 1219px;
+    padding: 0 55px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #007765;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_emblem {
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+
+.head_link {
+    font-size: 24px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.hero {
+    padding: 128px 0;
+    background-size: cover;
+    background-position: center center;
+}
+.hero1 {
+    background-image: url("/images/image@2x.png");
+}
+
+.hero2 {
+    background-image: url("/images/image.png");
+}
+
+.hero_text {
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+.the_problem, .coin, .team, .end {
+    padding: 64px 0 72px;
+}
+
+.the_problem, .team {
+    background-color: #EEEEEE;
+}
+
+.coin {
+    background-color: white;
+}
+
+.end {
+    background-color: #333333;
+}
+
+.h1 {
+    color: #007765;
+    font-size: 64px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.the_problem_text {
+    font-size: 32px;
+    color: black;
+    padding: 0 55px;
+}
+
+.hero_text2 {
+    padding: 0 155px;
+    font-style: italic;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.pps_logo {
+    float: left;
+    padding: 0 55px;
+}
+
+.coin_text1, .coin_text2 {
+    font-size: 32px;
+    color: black;
+}
+
+.coin_text2 {
+    padding: 0 55px;
+}
+
+.end_text {
+    font-size: 18px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.member {
+    flex-basis: 33%;
+    text-align: center;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.name {
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 28px;
+    color: #007765;
+}
+
+.specialization {
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+}
